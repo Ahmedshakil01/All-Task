@@ -1,0 +1,198 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.left{
+    float: left;
+}
+.right{
+    float: right;
+}
+header{
+    background-image: url('../images/header_bg.jpg');
+    min-height: 600px;
+    background-size: cover;
+    position: relative;
+}
+.overlay{
+    height: 600px;
+    background-color: rgba(0,0,0,0.3)
+}
+
+#development {
+    overflow: hidden;
+}
+
+#features {
+    overflow: hidden;
+}
+
+#clients {
+    overflow: hidden;
+}
+
+#brands {
+    overflow: hidden;
+}
+
+#team {
+    overflow: hidden;
+}
+
+.wrapper {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.header_top {
+}
+
+.logo {
+    color: white;
+    width: 165px;
+    padding: 20px 0px;
+    display: inline-flex;
+}
+.logo span{
+    font-weight: bold;
+    font-size: 28px;
+    text-transform: uppercase;
+    padding-left: 10px;
+}
+
+.navigation {
+    width: 60%;
+    display: block;
+    padding: 20px 0px;
+}
+.navigation ul{
+    list-style: none;
+    float: right; 
+}
+.navigation ul li{
+    float: left;
+}
+.navigation ul li a{
+    color: white;
+    text-decoration: none;
+    display: block;
+    padding: 15px 20px;
+    font-size: 20px;
+    font-weight: 100;
+}
+.navigation ul li a:hover{}
+
+
+.header_bottom {
+    clear: both;
+}
+
+.caption {
+    text-align: center;
+    padding-top: 75px;
+}
+.caption p{
+    color: white;
+    font-size: 20px;
+    font-weight: 100;
+    padding: 20px;
+}
+.caption h1{
+    color: white;
+    font-size: 75px;
+    font-weight: 100;
+    padding-bottom: 15px;
+}
+.caption button{
+    background: transparent;
+    border:  2px solid white;
+    color: white;
+    padding: 20px 80px;
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.web_development {
+    margin-top: 50px;
+    min-height: 250px;
+}
+
+.development_description {
+    width: 57%;
+}
+.development_description h1{
+    color: #222222;
+    font-size: 55px;
+    font-weight: 100;
+}
+.development_description h1 strong{}
+.development_description p{
+    color: #777777;
+    font-size: 18px;
+    margin-top: 5px;
+    padding: 10px;
+}
+.icon_image {
+    width: 35%;
+}
+
+}
+.branding_content{
+    background-color: fafafa;
+}
+.branding {
+    min-height: 250px;
+    padding-top: 35px;
+}
+
+.sigle_features {
+}
+
+.features_icon {
+}
+
+.features_description {
+}
+
+.clients_title {
+}
+
+.clients_data {
+}
+
+.clint_image {
+}
+
+.clint_description {
+}
+
+.single_brand {
+}
+
+.team_members {
+}
+
+.single_member {
+}
+
+.team_common_info {
+}
+footer{
+    overflow: hidden;
+}
+
+.footer_top {
+}
+
+.contact_info {
+}
+
+.contact_form {
+}
+
+.footer_bottom {
+}
+
+.copyright_info {
+}
